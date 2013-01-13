@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+	color: #000;
+}
+body {
+	background-color: #FFF;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+body {
+    background-image: url(Background%20Theme3.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.title2 {
+	font:"Courier New", Courier, monospace;
+	text-shadow: 0px 1px 1px #fff;
+}
+.table { background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef  0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	opacity: 0.9;
+	
+}
+.table2 {
+	background: #efefef;
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+}

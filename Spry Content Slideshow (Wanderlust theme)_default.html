@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Spry Content Slideshow Wanderlust : &lt;default&gt;</title>
+<link type='text/css' href='Spry-UI-1.7/css/ContentSlideShow/wanderlust/wanderlust-brown.css' rel='stylesheet'/>
+<script type='text/javascript' src='Spry-UI-1.7/includes/SpryDOMUtils.js'></script>
+<script type='text/javascript' src='Spry-UI-1.7/includes/SpryDOMEffects.js'></script>
+<script type='text/javascript' src='Spry-UI-1.7/includes/SpryWidget.js'></script>
+<script type='text/javascript' src='Spry-UI-1.7/includes/SpryPanelSelector.js'></script>
+<script type='text/javascript' src='Spry-UI-1.7/includes/SpryPanelSet.js'></script>
+<script type='text/javascript' src='Spry-UI-1.7/includes/SpryFadingPanels.js'></script>
+<script type='text/javascript' src='Spry-UI-1.7/includes/SpryContentSlideShow.js'></script>
+</head>
+
+<body>
+<div id="ImageSlideShow">
+  <div class="article">
+    <div class="photo"> <img src="http://labs.adobe.com/technologies/spry/ui/images/dbooth/images/photos-14.jpg" alt="San Francisco, CA" />
+      <div class="caption">San Francisco, CA</div>
+    </div>
+    <div class="story">
+      <div class="banner">
+        <div class="title">Palace of Fine Arts</div>
+        <div class="subTitle">Flowers of Spring, California</div>
+      </div>
+      <div class="content">
+        <p>The Palace of Fine Arts was initially built for the Pan-Pacific Exposition in the 1930s, heralding San Francisco's rebirth after the 1906 earthquake.</p>
+        <button type="button"><span><span><span>Click for Details</span></span></span></button>
+      </div>
+    </div>
+  </div>
+  <div class="article">
+    <div class="photo"> <img src="http://labs.adobe.com/technologies/spry/ui/images/dbooth/images/photos-8.jpg" alt="Horses" />
+      <div class="caption">Horses</div>
+    </div>
+    <div class="story">
+      <div class="banner">
+        <div class="title">Marin County, California</div>
+        <div class="subTitle">Bay Area's  Best Secret</div>
+      </div>
+      <div class="content">
+        <p>A few short miles from downtown San Francisco, horses roam in the fields of Marin County, California.</p>
+        <button type="button"><span><span><span>More Info</span></span></span></button>
+      </div>
+    </div>
+  </div>
+  <div class="article">
+    <div class="photo"> <img src="http://labs.adobe.com/technologies/spry/ui/images/dbooth/images/photos-4.jpg" alt="Open Space" />
+      <div class="caption">Open Space</div>
+    </div>
+    <div class="story">
+      <div class="banner">
+        <div class="title">Marin County</div>
+        <div class="subTitle">Parkland</div>
+      </div>
+      <div class="content">
+        <p>Marin County is blessed with acres of open spaces, both public and private. </p>
+        <button type="button"><span><span><span>Get Packing!</span></span></span></button>
+      </div>
+    </div>
+  </div>
+  <div class="article">
+    <div class="photo"> <img src="http://labs.adobe.com/technologies/spry/ui/images/dbooth/images/photos-1.jpg" alt="Orchids" />
+      <div class="caption">Orchids</div>
+    </div>
+    <div class="story">
+      <div class="banner">
+        <div class="title">Flower Garden</div>
+        <div class="subTitle">Flora tour in Golden Gate Park</div>
+      </div>
+      <div class="content">
+        <p>Orchids from all over the world can be seen in the Arboretum in Golden Gate Park.</p>
+        <button type="button"><span><span><span>Find out More!</span></span></span></button>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var ImageSlideShow = new Spry.Widget.ContentSlideShow("#ImageSlideShow", {
+	widgetClass: "WLBSlideShow",
+	displayInterval: 4000,
+	transitionDuration: 2000
+});
+</script>
+</body>
+</html>
